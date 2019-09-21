@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e78094e514d78449cdd998d693d5d2, type: 3}
+  m_Name: Default RockBiomeMapSettings
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  noiseSettings:
+    scale: 60
+    octaves: 4
+    persistance: 0.5
+    lacunarity: 1.5
+    seed: 1
+    offset: {x: 0, y: 0}
+  biomes:
+  - name: NoRocks
+    color: {r: 1, g: 0, b: 0, a: 0}
+    startValue: 0
+  - name: Planes
+    color: {r: 1, g: 1, b: 0, a: 0}
+    startValue: 0.5
+  - name: Rocks
+    color: {r: 0, g: 1, b: 0, a: 0}
+    startValue: 0.7

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 33321d858fb50ad47939969ee8984e1f
+timeCreated: 1518970708
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - terrainMesh: {fileID: 4300000, guid: 111aedeab4b81ef408b9bf7aedd8d415, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
